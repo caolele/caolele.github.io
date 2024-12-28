@@ -1,6 +1,70 @@
 ---
 ---
 
+@inproceedings{wang-etal-2024-understanding,
+abbr={Workshop},
+    title = "Understanding Players as if They Are Talking to the Game in a Customized Language: A Pilot Study",
+    author = "Wang, Tianze  and
+      Honarijahromi, Maryam  and
+      Katsarou, Styliani  and
+      Mikheeva, Olga  and
+      Panagiotakopoulos, Theodoros  and
+      Smirnov, Oleg  and
+      Cao, Lele  and
+      Asadi, Sahar",
+    editor = "Kumar, Sachin  and
+      Balachandran, Vidhisha  and
+      Park, Chan Young  and
+      Shi, Weijia  and
+      Hayati, Shirley Anugrah  and
+      Tsvetkov, Yulia  and
+      Smith, Noah  and
+      Hajishirzi, Hannaneh  and
+      Kang, Dongyeop  and
+      Jurgens, David",
+    booktitle = "EMNLP Workshop on Customizable NLP: Progress and Challenges in Customizing NLP for a Domain, Application, Group, or Individual (CustomNLP4U)",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.customnlp4u-1.5",
+    doi = "10.18653/v1/2024.customnlp4u-1.5",
+    pages = "47--52",
+    pdf="https://aclanthology.org/2024.customnlp4u-1.5.pdf",
+    abstract = "This pilot study explores the application of language models (LMs) to model game event sequences, treating them as a customized natural language. We investigate a popular mobile game, transforming raw event data into textual sequences and pretraining a Longformer model on this data. Our approach captures the rich and nuanced interactions within game sessions, effectively identifying meaningful player segments. The results demonstrate the potential of self-supervised LMs in enhancing game design and personalization without relying on ground-truth labels.",
+}
+
+@inproceedings{cao-etal-2024-introducing,
+abbr={Workshop},
+    title = "Introducing {G}en{C}eption for Multimodal {LLM} Benchmarking: You May Bypass Annotations",
+    author = "Cao, Lele  and
+      Buchner, Valentin  and
+      Senane, Zineb  and
+      Yang, Fangkai",
+    editor = "Ovalle, Anaelia  and
+      Chang, Kai-Wei  and
+      Cao, Yang Trista  and
+      Mehrabi, Ninareh  and
+      Zhao, Jieyu  and
+      Galstyan, Aram  and
+      Dhamala, Jwala  and
+      Kumar, Anoop  and
+      Gupta, Rahul",
+    booktitle = "NAACL Workshop on Trustworthy Natural Language Processing (TrustNLP 2024)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.trustnlp-1.16",
+    doi = "10.18653/v1/2024.trustnlp-1.16",
+    pages = "196--201",
+    pdf="https://aclanthology.org/2024.trustnlp-1.16.pdf",
+    code="https://github.com/llcresearch/GenCeption",
+    supp="https://aclanthology.org/attachments/2024.trustnlp-1.16.SupplementaryMaterial.zip",
+    google_scholar_id={YFjsv_pBGBYC},
+    abstract = "Multimodal Large Language Models (MLLMs) are commonly evaluated using costly annotated multimodal benchmarks. However, these benchmarks often struggle to keep pace with the rapidly advancing requirements of MLLM evaluation. We propose GenCeption, a novel and annotation-free MLLM evaluation framework that merely requires unimodal data to assess inter-modality semantic coherence and inversely reflects the models{'} inclination to hallucinate. Analogous to the popular DrawCeption game, GenCeption initiates with a non-textual sample and undergoes a series of iterative description and generation steps. Semantic drift across iterations is quantified using the GC@T metric. Our empirical findings validate GenCeption{'}s efficacy, showing strong correlations with popular MLLM benchmarking results. GenCeption may be extended to mitigate training data contamination by utilizing ubiquitous, previously unseen unimodal data.",
+}
+
 @InProceedings{10.1007/978-3-031-72356-8_25,
 abbr={Conference},
 author="Cao*, Lele
@@ -20,6 +84,7 @@ address="Cham",
 pages="373--388",
 abstract="This paper addresses the growing application of data-driven approaches within the Private Equity (PE) industry, particularly in sourcing investment targets (i.e., companies) for Venture Capital (VC) and Growth Capital (GC). We present a comprehensive review of the relevant approaches and propose a novel approach leveraging a Transformer-based Multivariate Time Series Classifier (TMTSC) for predicting the success likelihood of any candidate company. The objective of our research is to optimize sourcing performance for VC and GC investments by formally defining the sourcing problem as a multivariate time series classification task. We consecutively introduce the key components of our implementation which collectively contribute to the successful application of TMTSC in VC/GC sourcing: input features, model architecture, optimization target, and investor-centric data processing. Our extensive experiments on two real-world investment tasks, benchmarked towards three popular baselines, demonstrate the effectiveness of our approach in improving decision making within the VC and GC industry.",
 isbn="978-3-031-72356-8",
+doi="10.1007/978-3-031-72356-8_25",
 arxiv="https://arxiv.org/abs/2309.16888",
 blog="https://motherbrain.ai/applying-transformers-to-score-potentially-successful-startups-7893284efb01"
 }
@@ -54,7 +119,7 @@ blog={https://motherbrain.ai/advanced-financial-forecasting-for-portfolio-perfor
 @inproceedings{10.1145/3637528.3671515,
 abbr={SIGKDD},
 author = {Cao, Lele and von Ehrenheim, Vilhelm and Granroth-Wilding, Mark and Anselmo Stahl, Richard and McCornack, Andrew and Catovic, Armin and Cavalcanti Rocha, Dhiana Deva},
-title = {CompanyKG: A Large-Scale Heterogeneous Graph for Company Similarity Quantification},
+title = {CompanyKG2: A Large-Scale Heterogeneous Graph for Company Similarity Quantification},
 year = {2024},
 isbn = {9798400704901},
 publisher = {Association for Computing Machinery},
@@ -93,6 +158,29 @@ code={https://github.com/yikaiw/TokenFusion},
 video={https://youtu.be/aQVBuAjoOXU?si=GB2OhuBAmaVsgC9K},
 supp={https://openaccess.thecvf.com/content/CVPR2022/supplemental/Wang_Multimodal_Token_Fusion_CVPR_2022_supplemental.pdf}
 }
+
+@inproceedings{ijcai2023p38,
+abbr={IJCAI},
+  title     = {Measuring Acoustics with Collaborative Multiple Agents},
+  author    = {Yu, Yinfeng and Chen, Changan and Cao, Lele and Yang, Fangkai and Sun, Fuchun},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-23}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Edith Elkind},
+  pages     = {335--343},
+  year      = {2023},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2023/38},
+  url       = {https://doi.org/10.24963/ijcai.2023/38},
+  pdf={https://www.ijcai.org/proceedings/2023/0038.pdf},
+  code={https://github.com/yyf17/MACMA},
+  slides={https://yyf17.github.io/MACMA/files/IJCAI2023_MACMA.pdf},
+  arxiv={2310.05368},
+  website={https://yyf17.github.io/MACMA},
+  abstract={As humans, we hear sound every second of our life. The sound we hear is often affected by the acoustics of the environment surrounding us. For example, a spacious hall leads to more reverberation. Room Impulse Responses (RIR) are commonly used to characterize environment acoustics as a function of the scene geometry, materials, and source/receiver locations. Traditionally, RIRs are measured by setting up a loudspeaker and microphone in the environment for all source/receiver locations, which is time-consuming and inefficient. We propose to let two robots measure the environment's acoustics by actively moving and emitting/receiving sweep signals. We also devise a collaborative multi-agent policy where these two robots are trained to explore the environment's acoustics while being rewarded for wide exploration and accurate prediction. We show that the robots learn to collaborate and move to explore environment acoustics while minimizing the prediction error. To the best of our knowledge, we present the very first problem formulation and solution to the task of collaborative environment acoustics measurements with multiple agents.}
+}
+
 
 @inproceedings{cao-etal-2021-pause,
 abbr={EMNLP},
@@ -186,6 +274,36 @@ abbr={Journal},
   pdf={https://www.researchgate.net/profile/Lele-Cao/publication/319637924_Real-Time_Recurrent_Tactile_Recognition_Momentum_Batch-Sequential_Echo_State_Networks/links/6082c47b8ea909241e1b33db/Real-Time-Recurrent-Tactile-Recognition-Momentum-Batch-Sequential-Echo-State-Networks.pdf}
 }
 
+@inproceedings{loukas-etal-2023-using,
+abbr={Workshop},
+    title = "Using Deep Learning to Find the Next Unicorn: A Practical Synthesis on Optimization Target, Feature Selection, Data Split and Evaluation Strategy",
+    author = "Cao, Lele  and
+      von Ehrenheim, Vilhelm  and
+      Stan, Sebastian  and
+      Li, Xiaoxue  and
+      Lutz, Alexandra",
+    editor = "Chen, Chung-Chi  and
+      Takamura, Hiroya  and
+      Mathur, Puneet  and
+      Sawhney, Remit  and
+      Huang, Hen-Hsen  and
+      Chen, Hsin-Hsi",
+    booktitle = "IJCAI Workshop of Multimodal AI For Financial Forecasting (MuFFin)",
+    month = "aug",
+    year = "2023",
+    address = "Macao",
+    publisher = "-",
+    pages = "63--73",
+    doi="10.48550/arXiv.2210.14195",
+    pdf="https://aclanthology.org/2023.finnlp-1.6.pdf",
+    abstract="Startups represent newly established business models associated with disruptive innovation and high scalability, hence strongly propel the economic and social development. Meanwhile, startups are heavily constrained by many factors such as limited financial funding and human resources. Therefore, the chance for a startup to succeed is rare like “finding a unicorn in the wild”. Venture Capital strives to identify and invest in unicorn startups as early as possible, hoping to gain a high return. This work is traditionally manual and empirical, making it inherently biased and hard to scale. Recently, the rapid growth of data volume and variety is quickly ushering in deep learning (DL) as a potentially superior approach in this domain. In this work, we carry out a literature review and synthesis on DL-based approaches, emphasizing four key aspects: optimization target, feature selection, data split, and evaluation strategy. For each aspect, we summarize our in-depth understanding and practical learning.",
+    google_scholar_id="TQgYirikUcIC",
+    arxiv="2210.14195v2",
+    selected="true",
+    slides="https://www.slideshare.net/slideshow/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-on-optimization-target-feature-selection-data-split-and-evaluation-strategy/269599584",
+    blog="https://motherbrain.ai/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-272dc7e85cb5"
+}
+
 @inproceedings{cao2016efficient,
 abbr={AAAI},
   title={Efficient spatio-temporal tactile object recognition with randomized tiling convolutional networks in a hierarchical fusion strategy},
@@ -272,34 +390,6 @@ abbr={NAACL},
     slides="https://storage.googleapis.com/motherbrain-ptec/PTEC%20NAACL_slides.pdf",
     poster="https://storage.googleapis.com/motherbrain-ptec/PTEC%20NAACL%20poster.pdf",
     abstract = "We introduce Prompt Tuned Embedding Classification (PTEC) for classifying companies within an investment firm{'}s proprietary industry taxonomy, supporting their thematic investment strategy. PTEC assigns companies to the sectors they primarily operate in, conceptualizing this process as a multi-label text classification task. Prompt Tuning, usually deployed as a text-to-text (T2T) classification approach, ensures low computational cost while maintaining high task performance. However, T2T classification has limitations on multi-label tasks due to the generation of non-existing labels, permutation invariance of the label sequence, and a lack of confidence scores. PTEC addresses these limitations by utilizing a classification head in place of the Large Language Models (LLMs) language head. PTEC surpasses both baselines and human performance while lowering computational demands. This indicates the continuing need to adapt state-of-the-art methods to domain-specific tasks, even in the era of LLMs with strong generalization abilities.",
-}
-
-@inproceedings{loukas-etal-2023-using,
-abbr={Workshop},
-    title = "Using Deep Learning to Find the Next Unicorn: A Practical Synthesis on Optimization Target, Feature Selection, Data Split and Evaluation Strategy",
-    author = "Cao, Lele  and
-      von Ehrenheim, Vilhelm  and
-      Stan, Sebastian  and
-      Li, Xiaoxue  and
-      Lutz, Alexandra",
-    editor = "Chen, Chung-Chi  and
-      Takamura, Hiroya  and
-      Mathur, Puneet  and
-      Sawhney, Remit  and
-      Huang, Hen-Hsen  and
-      Chen, Hsin-Hsi",
-    booktitle = "IJCAI Workshop of Multimodal AI For Financial Forecasting (MuFFin)",
-    month = "aug",
-    year = "2023",
-    address = "Macao",
-    publisher = "-",
-    pages = "63--73",
-    doi="10.48550/arXiv.2210.14195",
-    pdf="https://aclanthology.org/2023.finnlp-1.6.pdf",
-    abstract="Startups represent newly established business models associated with disruptive innovation and high scalability, hence strongly propel the economic and social development. Meanwhile, startups are heavily constrained by many factors such as limited financial funding and human resources. Therefore, the chance for a startup to succeed is rare like “finding a unicorn in the wild”. Venture Capital strives to identify and invest in unicorn startups as early as possible, hoping to gain a high return. This work is traditionally manual and empirical, making it inherently biased and hard to scale. Recently, the rapid growth of data volume and variety is quickly ushering in deep learning (DL) as a potentially superior approach in this domain. In this work, we carry out a literature review and synthesis on DL-based approaches, emphasizing four key aspects: optimization target, feature selection, data split, and evaluation strategy. For each aspect, we summarize our in-depth understanding and practical learning.",
-    google_scholar_id="TQgYirikUcIC",
-    slides="https://www.slideshare.net/slideshow/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-on-optimization-target-feature-selection-data-split-and-evaluation-strategy/269599584",
-    blog="https://motherbrain.ai/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-272dc7e85cb5"
 }
 
 @InProceedings{Wang_2022_CVPR,
@@ -460,6 +550,25 @@ abbr={CVPR},
   google_scholar_id={0EnyYjriUFMC}
 }
 
+@article{Cao2017,
+abbr={Journal},
+  author       = {Lele Cao and Fuchun Sun and Hongbo Li and Wenbing Huang},
+  title        = {Advancing the incremental fusion of robotic sensory features using online multi-kernel extreme learning machine},
+  journal      = {Frontiers of Computer Science},
+  year         = {2017},
+  volume       = {11},
+  number       = {2},
+  pages        = {276--289},
+  doi          = {10.1007/s11704-016-5171-9},
+  url          = {https://doi.org/10.1007/s11704-016-5171-9},
+  issn         = {2095-2236},
+  dimensions={true},
+  google_scholar_id={ULOm3_A8WrAC},
+  pdf={https://www.researchgate.net/profile/Lele-Cao/publication/304405079_Advancing_the_incremental_fusion_of_robotic_sensory_features_using_online_multi-kernel_extreme_learning_machine/links/5c54e7a5a6fdccd6b5db841d/Advancing-the-incremental-fusion-of-robotic-sensory-features-using-online-multi-kernel-extreme-learning-machine.pdf},
+  abstract     = {Robot recognition tasks usually require multiple homogeneous or heterogeneous sensors which intrinsically generate sequential, redundant, and storage demanding data with various noise pollution. Thus, online machine learning algorithms performing efficient sensory feature fusion have become a hot topic in robot recognition domain. This paper proposes an online multi-kernel extreme learning machine (OM-ELM) which assembles multiple ELM classifiers and optimizes the kernel weights with a p-norm formulation of multi-kernel learning (MKL) problem. It can be applied in feature fusion applications that require incremental learning over multiple sequential sensory readings. The performance of OM-ELM is tested towards four different robot recognition tasks. By comparing to several state-of-the-art online models for multi-kernel learning, we claim that our method achieves a superior or equivalent training accuracy and generalization ability with less training time. Practical suggestions are also given to aid effective online fusion of robot sensory features.}
+}
+
+
 @INPROCEEDINGS{6977325,
 abbr={ICPR},
   author={Cao, Le-le and Huang, Wen-bing and Sun, Fu-chun},
@@ -476,6 +585,30 @@ abbr={ICPR},
   dimensions={true},
   google_scholar_id={zYLM7Y9cAGgC}
 }
+
+@article {10.34196/ijm.00120,
+abbr={Journal},
+article_type = {journal},
+title = {The quantitative and qualitative evaluation of a multi-agent microsimulation model for subway carriage design},
+author = {Cao, Le-le and Li, Xiao-xue and Kang, Fen-ni and Liu, Chang and Sun, Fu-chun and Kotagiri, Ramamohanarao},
+volume = 8,
+number = 3,
+year = 2015,
+month = {dec},
+pub_date = {2015-12-31},
+pages = {6-40},
+citation = {IJM 2015;8(3):6-40},
+doi = {10.34196/ijm.00120},
+url = {https://doi.org/10.34196/ijm.00120},
+abstract = {Multi-agent microsimulation, as a third way of doing science other than induction and deduction methods, is explored to aid subway carriage design in this paper. Realizing that passenger behavior shapes the environment and in turn is shaped by the environment itself, we intend to model this interaction and examine the effectiveness and usability of the proposed model. We address our micro-model from essential aspects of environment space, agent attributes, agent behaviors, simulation process, and global objective/convergence function. Based on the real and simulated data, we evaluate our model with a combination of quantitative and qualitative procedures. For quantitative approach, we proposed two evaluation paradigms (i.e. “unified multinomial classifier” and “one-vs.-all binary classifiers”) using the state-of-the-art machine learning techniques and frameworks; and we manage to show from various perspectives that our model matches the reality in the majority of cases. For qualitative verification, we present a small-scale case study to evaluate different seat layouts in a subway carriage, and identify their advantages and disadvantages with little effort. By enriching microsimulation theory with innovative techniques, our research aims at promoting its acceptance level in design communities by means of avoiding costly creation of real-world experiments.},
+keywords = {microsimulation, multi-agent, machine learning, neural network, design, subway carriage, pedestrian flow, qualitative study, quantitative evaluation},
+journal = {International Journal of Microsimulation (IJM)},
+issn = {1747-5864},
+google_scholar_id={ufrVoPGSRksC},
+pdf={https://www.microsimulation.pub/download/aHR0cDovL3dlYjo4MDgyLzAwMTIwL2lqbS0wMDEyMC5wZGY=/ijm-00120.pdf?_hash=p7Wo2G%2Fx3krNBgwOuO4rgXNTJfYAEtUZj8zWAXCRNco%3D},
+publisher = {International Journal of Microsimulation},
+}
+
 
 
 
