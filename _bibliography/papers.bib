@@ -1,6 +1,30 @@
 ---
 ---
 
+@InProceedings{10.1007/978-3-031-72356-8_25,
+abbr={Conference},
+author="Cao*, Lele
+and Halvardsson*, Gustaf
+and McCornack, Andrew
+and von Ehrenheim, Vilhelm
+and Herman, Pawel",
+editor="Wand, Michael
+and Malinovsk{\'a}, Krist{\'i}na
+and Schmidhuber, J{\"u}rgen
+and Tetko, Igor V.",
+title="Beyond Gut Feel: Using Time Series Transformers to Find Investment Gems",
+booktitle="Artificial Neural Networks and Machine Learning -- ICANN 2024",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="373--388",
+abstract="This paper addresses the growing application of data-driven approaches within the Private Equity (PE) industry, particularly in sourcing investment targets (i.e., companies) for Venture Capital (VC) and Growth Capital (GC). We present a comprehensive review of the relevant approaches and propose a novel approach leveraging a Transformer-based Multivariate Time Series Classifier (TMTSC) for predicting the success likelihood of any candidate company. The objective of our research is to optimize sourcing performance for VC and GC investments by formally defining the sourcing problem as a multivariate time series classification task. We consecutively introduce the key components of our implementation which collectively contribute to the successful application of TMTSC in VC/GC sourcing: input features, model architecture, optimization target, and investor-centric data processing. Our extensive experiments on two real-world investment tasks, benchmarked towards three popular baselines, demonstrate the effectiveness of our approach in improving decision making within the VC and GC industry.",
+isbn="978-3-031-72356-8",
+arxiv="https://arxiv.org/abs/2309.16888",
+blog="https://motherbrain.ai/applying-transformers-to-score-potentially-successful-startups-7893284efb01"
+}
+
+
 @inproceedings{10.1145/3637528.3671673,
 abbr={SIGKDD},
 author = {Senane*, Zineb and Cao*, Lele and Buchner, Valentin Leonhard and Tashiro, Yusuke and You, Lei and Herman, Pawel Andrzej and Nordahl, Mats and Tu, Ruibo and von Ehrenheim, Vilhelm},
@@ -251,7 +275,7 @@ abbr={NAACL},
 }
 
 @inproceedings{loukas-etal-2023-using,
-abbr={IJCAI (WS)},
+abbr={Workshop},
     title = "Using Deep Learning to Find the Next Unicorn: A Practical Synthesis on Optimization Target, Feature Selection, Data Split and Evaluation Strategy",
     author = "Cao, Lele  and
       von Ehrenheim, Vilhelm  and
@@ -264,7 +288,7 @@ abbr={IJCAI (WS)},
       Sawhney, Remit  and
       Huang, Hen-Hsen  and
       Chen, Hsin-Hsi",
-    booktitle = "Proceedings of the Fifth Workshop on Financial Technology and Natural Language Processing and the Second Multimodal AI For Financial Forecasting",
+    booktitle = "IJCAI Workshop of Multimodal AI For Financial Forecasting (MuFFin)",
     month = "aug",
     year = "2023",
     address = "Macao",
@@ -396,6 +420,64 @@ website={https://www.ijcai.org/Abstract/16/229},
 code={https://github.com/huangwb/LDS-toolbox},
 google_scholar_id={8k81kl-MbHgC},
 }
+
+@INPROCEEDINGS{8852009,
+abbr={IJCNN},
+  author={Cao, Lele},
+  booktitle={2019 International Joint Conference on Neural Networks}, 
+  title={Fine-Grained Road Mining from Satellite Images with Bilateral Xception and DeepLab}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Roads;Task analysis;Image segmentation;Feature extraction;Satellites;Data mining;Geographic information systems;road extraction;satellite images;convolutional neural network;fusion strategy;classification;segmentation},
+  doi={10.1109/IJCNN.2019.8852009},
+  dimensions={true},
+  google_scholar_id={aqlVkmm33-oC},
+  pdf={https://www.researchgate.net/profile/Lele-Cao/publication/336162565_Fine-Grained_Road_Mining_from_Satellite_Images_with_Bilateral_Xception_and_DeepLab/links/5f5182df92851c250b8ecb7b/Fine-Grained-Road-Mining-from-Satellite-Images-with-Bilateral-Xception-and-DeepLab.pdf},
+  abstract={With the recent development of remote sensing and deep learning techniques, automatic and robust road extraction from satellite imaging data has become one of the most popular topics in both fields of Geographic Information System (GIS) and Computer Vision. Despite of the superior performance of Convolutional Neural Networks (DCNNs), a common problem of choosing between the classification and segmentation DCNNs still remains. By comparing two state-of-the-art baseline classification/segmentation DCNNs in several industrial application scenarios, we illustrate that their relative performance may vary, leading to different choices. Based on that observation, we propose a general fusion strategy that conveniently combines the strength of both classification and segmentation DCNNs using an end-to-end network architecture; this paradigm only requires pre-train segmentation/classification DCNNs once, which then can be reused in different road feature mining tasks. The task-specific experiments show that our fusion strategy guarantees superior results in all tested industrial scenarios.},
+  code={https://github.com/caolele/road-discovery},
+  website={https://patents.google.com/patent/CN109583282B/en}
+}
+
+@INPROCEEDINGS{7780796,
+abbr={CVPR},
+  author={Huang, Wenbing and Sun, Fuchun and Cao, Lele and Zhao, Deli and Liu, Huaping and Harandi, Mehrtash},
+  booktitle={2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={Sparse Coding and Dictionary Learning with Linear Dynamical Systems}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={3938-3947},
+  keywords={Observability;Dictionaries;Encoding;Symmetric matrices;Sparse matrices;Measurement;Computational modeling},
+  doi={10.1109/CVPR.2016.427},
+  abstract={Linear Dynamical Systems (LDSs) are the fundamental tools for encoding spatio-temporal data in various disciplines. To enhance the performance of LDSs, in this paper, we address the challenging issue of performing sparse coding on the space of LDSs, where both data and dictionary atoms are LDSs. Rather than approximate the extended observability with a finite-order matrix, we represent the space of LDSs by an infinite Grassmannian consisting of the orthonormalized extended observability subspaces. Via a homeomorphic mapping, such Grassmannian is embedded into the space of symmetric matrices, where a tractable objective function can be derived for sparse coding. Then, we propose an efficient method to learn the system parameters of the dictionary atoms explicitly, by imposing the symmetric constraint to the transition matrices of the data and dictionary systems. Moreover, we combine the state covariance into the algorithm formulation, thus further promoting the performance of the models with symmetric transition matrices. Comparative experimental evaluations reveal the superior performance of proposed methods on various tasks including video classification and tactile recognition.},
+  pdf={https://openaccess.thecvf.com/content_cvpr_2016/papers/Huang_Sparse_Coding_and_CVPR_2016_paper.pdf},
+  website={https://openaccess.thecvf.com/content_cvpr_2016/html/Huang_Sparse_Coding_and_CVPR_2016_paper.html},
+  video={https://www.youtube.com/watch?v=0PA1VYyehoQ},
+  supp={https://openaccess.thecvf.com/content_cvpr_2016/supplemental/Huang_Sparse_Coding_and_2016_CVPR_supplemental.pdf},
+  dimensions={true},
+  google_scholar_id={0EnyYjriUFMC}
+}
+
+@INPROCEEDINGS{6977325,
+abbr={ICPR},
+  author={Cao, Le-le and Huang, Wen-bing and Sun, Fu-chun},
+  booktitle={2014 22nd International Conference on Pattern Recognition}, 
+  title={Optimization-Based Extreme Learning Machine with Multi-kernel Learning Approach for Classification}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={3564-3569},
+  keywords={Kernel;Support vector machines;Training;Testing;Optimization;Standards;Mathematical model;multi-kernel extreme learning machine (MK-ELM);extreme learning machine (ELM);multi-kernel learning (MKL);optimization-based ELM;SimpleMKL},
+  doi={10.1109/ICPR.2014.613},
+  abstract={The optimization method based extreme learning machine (optimization-based ELM) is generalized from single-hidden-layer feed-forward neural networks (SLFNs) by making use of kernels instead of neuron-alike hidden nodes. This approach is known for its high scalability, low computational complexity, and mild optimization constrains. The multi-kernel learning (MKL) framework Simple MKL iteratively determines the combination of kernels by gradient descent wrapping a standard support vector machine (SVM) solver. Simple MKL can be applied to many kinds of supervised learning problems to receive a more stable performance with rapid convergence speed. This paper proposes a new approach: MK-ELM (multi-kernel extreme learning machine) that applies Simple MKL framework to the optimization-based ELM algorithm. The performance analysis on binary classification problems with various scales shows that MK-ELM tends to achieve the best generalization performance as well as being the most insensitive to parameters comparing to optimization-based ELM and Simple MKL. As a result, MK-ELM can be implemented in real applications easily.},
+  pdf={https://www.researchgate.net/profile/Lele-Cao/publication/285625604_Optimization-Based_Extreme_Learning_Machine_with_Multi-kernel_Learning_Approach_for_Classification/links/5c54e896458515a4c751496a/Optimization-Based-Extreme-Learning-Machine-with-Multi-kernel-Learning-Approach-for-Classification.pdf},
+  dimensions={true},
+  google_scholar_id={zYLM7Y9cAGgC}
+}
+
+
 
 
 
