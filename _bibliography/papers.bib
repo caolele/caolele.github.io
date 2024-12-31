@@ -2,7 +2,7 @@
 ---
 
 @inproceedings{wang-etal-2024-understanding,
-abbr={Workshop},
+abbr={EMNLP Workshop},
     title = "Understanding Players as if They Are Talking to the Game in a Customized Language: A Pilot Study",
     author = "Wang, Tianze  and
       Honarijahromi, Maryam  and
@@ -35,7 +35,7 @@ abbr={Workshop},
 }
 
 @inproceedings{cao-etal-2024-introducing,
-abbr={Workshop},
+abbr={NAACL Workshop},
     title = "Introducing {G}en{C}eption for Multimodal {LLM} Benchmarking: You May Bypass Annotations",
     author = "Cao, Lele  and
       Buchner, Valentin  and
@@ -66,7 +66,7 @@ abbr={Workshop},
 }
 
 @InProceedings{10.1007/978-3-031-72356-8_25,
-abbr={Conference},
+abbr={ICANN},
 author="Cao*, Lele
 and Halvardsson*, Gustaf
 and McCornack, Andrew
@@ -274,8 +274,20 @@ abbr={Journal},
   pdf={https://www.researchgate.net/profile/Lele-Cao/publication/319637924_Real-Time_Recurrent_Tactile_Recognition_Momentum_Batch-Sequential_Echo_State_Networks/links/6082c47b8ea909241e1b33db/Real-Time-Recurrent-Tactile-Recognition-Momentum-Batch-Sequential-Echo-State-Networks.pdf}
 }
 
+@inproceedings{cao2020debiasing,
+abbr={RecSys Workshop},
+  title={Debiasing Few-Shot Recommendation in Mobile Games},
+  author={Cao, Lele and Asadi, Sahar and Biasielli, Matteo and Sj{\"o}berg, Michael},
+  booktitle = "RecSys Workshop on Online Recommender Systems and User Modeling (ORSUM)",
+  year={2020},
+  pdf={https://ceur-ws.org/Vol-2715/paper4.pdf},
+  abstract={Mobile gaming has become increasingly popular due to the growing usage of smartphones in day to day life. In recent years, this advancement has led to an interest in the application of in-game recommendation systems. However, the in-game recommendation is more challenging than common recommendation scenarios, such as e-commerce, for a number of reasons:(1) the player behavior and context change at a fast pace,(2) only a few items (few-shot) can be exposed, and (3) with an existing hand-crafted heuristic recommendation, performing randomized explorations to collect data is not a business choice that is preferred by game stakeholders. To that end, we propose an end-to-end model called DFSNet (Debiasing Few-Shot Network) that enables training an in-game recommender on an imbalanced dataset that is biased by the existing heuristic policy. We experimentally evaluate the performance of DFSNet both in an offline setup on a validation dataset and online in a real-time serving environment, illustrating the correctness and effectiveness of the trained model.},
+  google_scholar_id={9ZlFYXVOiuMC},
+  website={https://orsum.inesctec.pt/orsum2020/accepted-papers.php}
+}
+
 @inproceedings{loukas-etal-2023-using,
-abbr={Workshop},
+abbr={IJCAI Workshop},
     title = "Using Deep Learning to Find the Next Unicorn: A Practical Synthesis on Optimization Target, Feature Selection, Data Split and Evaluation Strategy",
     author = "Cao, Lele  and
       von Ehrenheim, Vilhelm  and
@@ -294,7 +306,7 @@ abbr={Workshop},
     address = "Macao",
     publisher = "-",
     pages = "63--73",
-    doi="10.48550/arXiv.2210.14195",
+    website="https://aclanthology.org/2023.finnlp-1.6/",
     pdf="https://aclanthology.org/2023.finnlp-1.6.pdf",
     abstract="Startups represent newly established business models associated with disruptive innovation and high scalability, hence strongly propel the economic and social development. Meanwhile, startups are heavily constrained by many factors such as limited financial funding and human resources. Therefore, the chance for a startup to succeed is rare like “finding a unicorn in the wild”. Venture Capital strives to identify and invest in unicorn startups as early as possible, hoping to gain a high return. This work is traditionally manual and empirical, making it inherently biased and hard to scale. Recently, the rapid growth of data volume and variety is quickly ushering in deep learning (DL) as a potentially superior approach in this domain. In this work, we carry out a literature review and synthesis on DL-based approaches, emphasizing four key aspects: optimization target, feature selection, data split, and evaluation strategy. For each aspect, we summarize our in-depth understanding and practical learning.",
     google_scholar_id="TQgYirikUcIC",
@@ -302,6 +314,62 @@ abbr={Workshop},
     selected="true",
     slides="https://www.slideshare.net/slideshow/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-on-optimization-target-feature-selection-data-split-and-evaluation-strategy/269599584",
     blog="https://motherbrain.ai/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-272dc7e85cb5"
+}
+
+@inproceedings{cao-etal-2023-scalable,
+abbr={IJCAI Workshop},
+    title = "A Scalable and Adaptive System to Infer the Industry Sectors of Companies: Prompt + Model Tuning of Generative Language Models",
+    author = "Cao, Lele  and
+      von Ehrenheim, Vilhelm  and
+      Berghult, Astrid  and
+      Henje, Cecilia  and
+      Stahl, Richard Anselmo  and
+      Wandborg, Joar  and
+      Stan, Sebastian  and
+      Catovic, Armin  and
+      Ferm, Erik  and
+      Ingelhag, Hannes",
+    editor = "Chen, Chung-Chi  and
+      Takamura, Hiroya  and
+      Mathur, Puneet  and
+      Sawhney, Remit  and
+      Huang, Hen-Hsen  and
+      Chen, Hsin-Hsi",
+    booktitle = "IJCAI Workshop of Financial Technology and Natural Language Processing (FinNLP)",
+    month = "Aug",
+    year = "2023",
+    address = "Macao",
+    publisher = "-",
+    website = "https://aclanthology.org/2023.finnlp-1.5/",
+    pages = "55--62",
+    abstract="The Private Equity (PE) firms operate investment funds by acquiring and managing companies to achieve a high return upon selling. Many PE funds are thematic, meaning investment professionals aim to identify trends by covering as many industry sectors as possible, and picking promising companies within these sectors. So, inferring sectors for companies is critical to the success of thematic PE funds. In this work, we standardize the sector framework and discuss the typical challenges; we then introduce our sector inference system addressing these challenges. Specifically, our system is built on a medium-sized generative language model, finetuned with a prompt + model tuning procedure. The deployed model demonstrates a superior performance than the common baselines. The system has been serving many PE professionals for over a year, showing great scalability to data volume and adaptability to any change in sector framework and/or annotation.",
+    pdf={https://aclanthology.org/2023.finnlp-1.5.pdf},
+    arxiv={https://arxiv.org/abs/2306.03313},
+    google_scholar_id="GnPB-g6toBAC"
+}
+
+@InProceedings{10.1007/978-3-319-70139-4_59,
+abbr={ICONIP},
+author="Cao, Lele
+and Sun, Fuchun
+and Liu, Xiaolong
+and Huang, Wenbing
+and Cheng, Weihao
+and Kotagiri, Ramamohanarao",
+editor="Liu, Derong
+and Xie, Shengli
+and Li, Yuanqing
+and Zhao, Dongbin
+and El-Alfy, El-Sayed M.",
+title="Fix-Budget and Recurrent Data Mining for Online Haptic Perception",
+booktitle="Neural Information Processing",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="581--591",
+abstract="Haptic perception is to identify different targets from haptic input. Haptic data have two prominent features: sequentially real-time and temporally correlated, which calls for a fixed-budget and recurrent perception procedure. Based on an efficient-robust spatio-temporal feature representation, we handle the problem with a bounded online-sequential learning framework (MBS-ESN), and incorporates the strength of batch-regularization bootstrapping, bounded recursive reservoir, and momentum-based estimation. Experimental evaluations show that it outperforms the state-of-the-art methods by a large margin on test accuracy; and its training performance is superior to most compared models from aspects of computational complexity and storage efficiency.",
+isbn="978-3-319-70139-4",
+doi={10.1007/978-3-319-70139-4_59}
 }
 
 @inproceedings{cao2016efficient,
@@ -321,15 +389,16 @@ abbr={AAAI},
 }
 
 @INPROCEEDINGS{8490442,
-abbr={Conference},
+abbr={CoG},
   author={Gudmundsson, Stefan Freyr and Eisen, Philipp and Poromaa, Erik and Nodet, Alex and Purmonen, Sami and Kozakowski, Bartlomiej and Meurling, Richard and Cao, Lele},
-  booktitle={2018 IEEE Conference on Computational Intelligence and Games (CIG)}, 
+  booktitle={2018 IEEE Conference on Computational Intelligence and Games (CIG, n.k.a. CoG)}, 
   title={Human-Like Playtesting with Deep Learning}, 
   year={2018},
   volume={},
   number={},
   pages={1-8},
   dimensions={true},
+  selected={true},
   google_scholar_id={qxL8FJ1GzNcC},
   keywords={Games;Measurement;Training;Machine learning;Supervised learning;Convolutional neural networks;Monte Carlo methods;deep learning;convolutional neural network;agent simulation;playtesting;Monte-Carlo tree search},
   doi={10.1109/CIG.2018.8490442},
@@ -461,7 +530,7 @@ abbr={ITSC},
 }
 
 @INPROCEEDINGS{9231638,
-abbr={Conference},
+abbr={CoG},
   author={Lorenzo, Francesco and Asadi, Sahar and Karnsund, Alice and Cao, Lele and Wang, Tianze and Payberah, Amir H.},
   booktitle={2020 IEEE Conference on Games (CoG)}, 
   title={Use All Your Skills, Not Only The Most Popular Ones}, 
@@ -608,6 +677,85 @@ google_scholar_id={ufrVoPGSRksC},
 pdf={https://www.microsimulation.pub/download/aHR0cDovL3dlYjo4MDgyLzAwMTIwL2lqbS0wMDEyMC5wZGY=/ijm-00120.pdf?_hash=p7Wo2G%2Fx3krNBgwOuO4rgXNTJfYAEtUZj8zWAXCRNco%3D},
 publisher = {International Journal of Microsimulation},
 }
+
+@InProceedings{10.1007/978-3-319-31750-2_21,
+abbr={PAKDD},
+author="Yang, Haolin
+and Zhao, Deli
+and Cao, Lele
+and Sun, Fuchun",
+editor="Bailey, James
+and Khan, Latifur
+and Washio, Takashi
+and Dobbie, Gill
+and Huang, Joshua Zhexue
+and Wang, Ruili",
+title="A Precise and Robust Clustering Approach Using Homophilic Degrees of Graph Kernel",
+booktitle="Advances in Knowledge Discovery and Data Mining",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+pages="257--270",
+abstract={To address the difficulties of "data noise sensitivity" and "cluster center variance" in mainstream clustering algorithms, we propose a novel robust approach for identifying cluster centers unambiguously from data contaminated with noise; it incorporates the strength of homophilic degrees and graph kernel. Exploiting that in-degrees can breed the homophilic distribution if ordered by their associated sorted out-degrees, it is easy to separate clusters from noise. Then we apply the diffusion kernel to the graph formed by clusters so as to obtain graph kernel matrix, which is treated as the measurement of global similarities. Based on local data densities and global similarities, the proposed approach manages to identify cluster centers precisely. Experiments on various synthetic and real-world databases verify the superiority of our algorithm in comparison with state-of-the-art algorithms.},
+isbn="978-3-319-31750-2",
+doi="10.1007/978-3-319-31750-2_21",
+dimensions={true},
+google_scholar_id={kNdYIx-mwKoC},
+pdf="https://drive.google.com/file/d/1b2Cc6Y9-D4CZXndh5iTZI6ZplKKMis2x"
+}
+
+@INPROCEEDINGS{7727889,
+abbr={IJCNN},
+  author={Yang, Haolin and Sun, Fuchun and Huang, Wenbing and Cao, Lele and Fang, Bin},
+  booktitle={2016 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Tactile sequence based object categorization: A Bag of features modeled by Linear Dynamic System with Symmetric Transition Matrix}, 
+  year={2016},
+  abstract={In this paper, we propose a novel categorization framework to recognize tactile sequences based on two particular properties of the tactile data. For the first one, tactile sequences are spatio-temporal data which is sequential and dynamic, depicting the process of grasping an object in different grasping stages; therefore, it is reasonable to discover the dynamical pattern by modeling tactile data as integral sequences rather than individual frames. For the second one, a tactile sequence contains various dynamical patterns in different stages of the grasping process; therefore, we decompose the whole sequence into multiple mini-sequences so as to enhance feature resolution. To address both properties in our framework, we take advantage of a Bag-of-System model using parameters of the Linear Dynamic System (LDS) as feature descriptors. Moreover, we employ the LDS with Symmetric Transition matrix (LDSST) rather than the original LDS as the building-block in order to obtain accurate codewords of the codebook of the Bag-of-System. The performance of our framework is evaluated on six real-world databases of three groups. Our experiments show that classification using LDSST is better than the original LDS, and the decomposition of tactile sequences does improve the accuracy of classification. The experiment results also show the superiority of our framework in comparison with other state-of-the-art sequence classifiers.},
+  volume={},
+  number={},
+  pages={5218-5225},
+  keywords={Grasping;Databases;Symmetric matrices;Feature extraction;Robot sensing systems},
+  doi={10.1109/IJCNN.2016.7727889},
+dimensions={true},
+google_scholar_id={KlAtU1dfN6UC},
+pdf={https://drive.google.com/file/d/17Z6CqkqoL_3DATXJmd-DleAiKHyewva-}
+}
+
+@INPROCEEDINGS{7288940,
+abbr={Conference},
+  author={Yang, Haolin and Hu, Xiaohui and Cao, Lele and Sun, Fuchun},
+  booktitle={2015 International Conference on Information Science and Technology (ICIST)}, 
+  title={A new slip-detection method based on pairwise high frequency components of capacitive sensor signals}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={56-61},
+  keywords={Discrete wavelet transforms;Market research;Wavelet analysis},
+  doi={10.1109/ICIST.2015.7288940},
+  abstract={In this paper, a novel method for slip detection using a capacitive sensor is proposed. We perform the Discrete Wavelet Transform (DWT) on the original signals of sensor. By comparing different wavelets, we find that the Haar wavelet is the most suitable to separate different frequency components. After performing the DWT by using the Haar wavelet, the separated high frequency components are pairwise due to properties of the Haar wavelet. Different from setting thresholds to detect object slip, our method detects slip by observing the variation trend of pairwise high frequency components. Meanwhile, we can distinguish signals of object loading and slip respectively. We carry out experiments on several objects with different surface properties and the results are consistent with our observations.},
+  pdf={https://www.researchgate.net/profile/Lele-Cao/publication/308847708_A_new_slip-detection_method_based_on_pairwise_high_frequency_components_of_capacitive_sensor_signals/links/5b20e1ff458515270fc610f5/A-new-slip-detection-method-based-on-pairwise-high-frequency-components-of-capacitive-sensor-signals.pdf},
+  google_scholar_id={5nxA0vEk-isC},
+  dimensions={true}
+}
+
+@INPROCEEDINGS{6997629,
+abbr={Conference},
+  author={Cao, Le-le and Huang, Wen-bing and Sun, Fu-chun},
+  booktitle={2014 International Conference on Multisensor Fusion and Information Integration for Intelligent Systems (MFI)}, 
+  title={Optimization-based multikernel extreme learning for multimodal object image classification}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Kernel;Visualization;Support vector machines;Training;Standards;Optimization methods;Histograms},
+  doi={10.1109/MFI.2014.6997629},
+  abstract={This paper is concerned with multi-kernel extreme learning machine (MK-ELM) which adapts the multi-kernel learning (MKL) framework to extreme learning machine (ELM). MK-ELM approach iteratively determines the combination of kernels by gradient descent wrapping a standard optimization method based ELM. Such MKL methods are very useful in information fusion research and applications. MK-ELM's performance on object image classification via multimodal feature (visual and textual) fusion is experimented and studied. By comparing to other widely used fusion methods (i.e. SVM-based SimpleMKL, feature concatenation, and decision fusion), several advantages and characteristics of MK-ELM fusion are revealed and discussed showing MK-ELM is an easy and effective approach to implement in object image classification applications.},
+  pdf={https://drive.google.com/file/u/0/d/1XFDzRVk2UbMc_VDlwAaE0b-5XWrFt3K-},
+  google_scholar_id={Tyk-4Ss8FVUC}
+}
+
+
+
 
 
 
