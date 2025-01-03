@@ -21,7 +21,7 @@ These topics showcased how we integrates data science and machine learning to su
 
 The engaging questions and interactions from the audience were truly energizing, reflecting their curiosity and passion for the field. As part of the session, I shared insights from our published research, which you can explore on <a href="https://motherbrain.ai/about">motherbrain.ai</a>, and made <a href="https://github.com/caolele/caolele.github.io/blob/main/assets/pdf/HHS-lecture.pdf">the lecture slides available here</a>.
 
-<a href="https://github.com/caolele/caolele.github.io/blob/main/assets/pdf/HHS-lecture.pdf?raw=true">
+<a href="https://github.com/caolele/caolele.github.io/blob/main/assets/pdf/HHS-lecture.pdf">
   <img src="https://github.com/caolele/caolele.github.io/blob/main/assets/img/news/20240515-1.jpg?raw=true" alt="HHS lecture slides" width="600">
 </a>
 
