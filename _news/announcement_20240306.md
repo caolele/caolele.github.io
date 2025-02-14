@@ -6,7 +6,11 @@ inline: false
 related_posts: false
 ---
 
-<img src="https://github.com/caolele/caolele.github.io/blob/main/assets/img/news/20240306-2.jpg?raw=true" alt="Reception setup" width="600">
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news/20240306-2.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 From March 3 till 6, 2024, I had the honor of participating in the <a href="https://www.nobelprize.org/events/nobel-prize-dialogue/brussels2024/">Nobel Prize Dialogue Brussels, themed "Fact & Fiction: The Future of Democracy."</a> Held at Bozar in Brussels, this event brought together thought leaders, Nobel laureates, and global experts to discuss democracy’s evolving challenges and opportunities, particularly in the age of AI. Here, I share my reflections on this inspiring experience.
 
@@ -14,7 +18,11 @@ From March 3 till 6, 2024, I had the honor of participating in the <a href="http
 
 The Dialogue began with an exclusive roundtable discussion, held under Chatham House rules to foster open, transformative dialogue. Moderated by <a href="https://www.nobelprize.org/events/nobel-prize-dialogue/brussels2024/panellists/anna-sjostrom-douagi/">Anna Sjöström Douagi, The Vice President of Strategic Initiatives at the Nobel Foundation</a>, this 75-minute session convened 23 participants, including Nobel laureates like <a href="https://www.nobelprize.org/prizes/medicine/2001/nurse/facts/">Paul Nurse</a>, <a href="https://www.nobelprize.org/prizes/chemistry/2016/feringa/facts/">Bernard Feringa</a> and <a href="https://www.nobelprize.org/events/nobel-prize-dialogue/brussels2024/panellists/oleksandra-matviichuk">Oleksandra Matviichuk</a>, and industry leaders such as <a href="https://www.google.com/search?q=Nicklas+Lundblad">DeepMind’s Director, Nicklas Lundblad</a>. We explored key questions about the implications of AI for elections, media, and citizen engagement.
 
-<img src="https://github.com/caolele/caolele.github.io/blob/main/assets/img/news/20240306-1.jpg?raw=true" alt="Roundtable discussion" width="600">
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news/20240306-1.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 I was privileged to contribute to discussions on how AI could both enhance and undermine democratic systems. My perspective focused on governance frameworks to mitigate risks, such as disinformation, while leveraging AI for transparency and inclusivity. Paul Nurse’s assertion that “critical thinking is a cornerstone of democracy” resonated deeply, reinforcing the importance of nurturing these skills in the digital age.
 
@@ -22,7 +30,11 @@ I was privileged to contribute to discussions on how AI could both enhance and u
 
 Before the event, I attended a reception hosted by <a href="https://www.google.com/search?q=annika+molin+hellgren&oq=Annika+Molin+Hellgren">H.E. Annika Molin Hellgren at the Swedish Residence in Brussels</a>. This gathering set the tone for the following day, offering an opportunity to connect with fellow participants in an informal setting. Conversations ranged from the future of AI governance to the global challenges of misinformation. It was a reminder of the importance of shared values and collaboration in addressing these complex issues.
 
-<img src="https://github.com/caolele/caolele.github.io/blob/main/assets/img/news/20240306-3.jpg?raw=true" alt="Evening reception" width="600"><br>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news/20240306-3.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 **The Broader Dialogue: Democracy in Transition**
 
@@ -30,10 +42,14 @@ The main event in Bozar’s Henry Le Boeuf Hall was attended by over 1,800 peopl
 
 The evening dialogue featured compelling talks from Nobel laureates, including <a href="https://www.nobelprize.org/prizes/chemistry/2016/feringa/facts/">Bernard Feringa</a> and <a href="https://www.nobelprize.org/prizes/medicine/2001/nurse/facts/">Paul Nurse</a> (right in the photo below), who spoke passionately about the role of storytelling in fostering critical thinking. His statement, "*The struggle in writing a good essay is essential to critical thinking*," underlined the value of intellectual rigor in safeguarding democracy. These reflections were particularly poignant as we considered the intersection of fact and fiction in shaping public narratives.
 
-<div style="display: flex; gap: 10px;">
-  <img src="https://github.com/caolele/caolele.github.io/blob/main/assets/img/news/20240306-4.jpg?raw=true" alt="with Paul" width="400">
-  <img src="https://github.com/caolele/caolele.github.io/blob/main/assets/img/news/20240306-5.jpg?raw=true" alt="main event" width="400">
-</div><br>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news/20240306-4.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news/20240306-5.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 **Closing Thoughts**

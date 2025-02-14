@@ -8,7 +8,11 @@ related_posts: false
 
 What an unforgettable evening at the <a href="https://www.nobelprize.org/all-nobel-prizes-2024/">2024 Nobel Prize</a> Reception! I had the privilege of meeting <a href="https://www.nobelprize.org/prizes/physics/2024/hinton/facts/">Professor Hinton</a>, the pioneer who transformed AI with neural networks, and connecting with other brilliant minds honored this year and in previous years. Their groundbreaking achievements continue to inspire us all. 
 
-<img src="https://media.licdn.com/dms/image/v2/D4D22AQFsPidwxb2hiw/feedshare-shrink_800/feedshare-shrink_800/0/1733778413513?e=1738195200&v=beta&t=cX_tPWXG3MFIvvFbxs7X42IqaG6M5a5q0EqPbj_UQBU" alt="Lele, Hinton and Valentin" width="400">
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news/20241209-1.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 It was a genuine joy to reconnect with many familiar faces, such as Valentin Buchner (pictured on the right) and Hans Mehlin. Together with <a href="https://www.nobelprize.org/the-nobel-prize-organisation/digital-outreach/">Nobel Prize Outreach (NPO)</a>, we achieved significant results on <a href="https://motherbrain.ai/enhancing-knowledge-graphs-with-llms-a-novel-approach-to-keyword-extraction-and-synonym-merging-3b76b3813a54">a joint project constructing knowledge graph for Nobel Prize laureates</a>. Projects like this remind me of the value of community and shared passion.
 

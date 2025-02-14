@@ -8,7 +8,11 @@ related_posts: false
 
 I had the honor of giving a guest lecture at the <a href="https://www.hhs.se/en">Stockholm School of Economics (SSE)</a> as a part of the course "Digitization in Finance" course led by <a href="https://www.hhs.se/en/houseoffinance/about/people/people-container/ye-zhang/">Prof. Ye (Iris) Zhang</a>. The session focused on decoding AI's transformative role in entrepreneurial finance, drawing from my work at EQT Motherbrain.
 
-<img src="https://media.licdn.com/dms/image/v2/D4D22AQHs6822O_cm6Q/feedshare-shrink_800/feedshare-shrink_800/0/1715693070193?e=1738195200&v=beta&t=6GcwjYpziADfihEcdMSgeuhYqC7TNsvKuzSZKzKYQps" alt="HHS guest lecture" width="600">
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/news/20240515-1.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 During the lecture, I explored key applications of AI in private equity and venture capital, including topics of:
 
@@ -21,9 +25,13 @@ These topics showcased how we integrates data science and machine learning to su
 
 The engaging questions and interactions from the audience were truly energizing, reflecting their curiosity and passion for the field. As part of the session, I shared insights from our published research, which you can explore on <a href="https://motherbrain.ai/about">motherbrain.ai</a>, and made <a href="https://github.com/caolele/caolele.github.io/blob/main/assets/pdf/HHS-lecture.pdf">the lecture slides available here</a>.
 
-<a href="https://github.com/caolele/caolele.github.io/blob/main/assets/pdf/HHS-lecture.pdf">
-  <img src="https://github.com/caolele/caolele.github.io/blob/main/assets/img/news/20240515-1.jpg?raw=true" alt="HHS lecture slides" width="600">
-</a>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://github.com/caolele/caolele.github.io/blob/main/assets/pdf/HHS-lecture.pdf" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/news/20240515-2.jpg" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+</div>
 
 Thank you to SSE for the warm welcome and the opportunity to contribute to such a prestigious program.
 
