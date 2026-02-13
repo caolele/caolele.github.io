@@ -45,8 +45,8 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-announcing-the-motherbrain-blog-a-new-chapter-led-by-me-as-chief-editor-rocket-notebook",
-          title: 'Announcing the Motherbrain Blog – A New Chapter Led by Me as Chief...',
+    },{id: "news-promoted-to-principal-ai-research-scientist-director-at-eqt-motherbrain-team-intro-slides",
+          title: 'Promoted to Principal AI Research Scientist (Director) at EQT Motherbrain. (Team intro slides)...',
           description: "",
           section: "News",},{id: "news-panelist-on-quot-the-rise-of-ai-related-investments-quot-at-the-zero-one-hundred-conference-in-rome",
           title: 'Panelist on &amp;quot;The Rise of AI-Related Investments&amp;quot; at the Zero One Hundred Conference...',
