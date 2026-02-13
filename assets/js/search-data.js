@@ -94,6 +94,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20250212/";
+            },},{id: "news-sharing-my-book-chapters-a-practical-guide-to-detect-genai-content",
+          title: 'Sharing my book chapters: A Practical Guide to Detect GenAI Content',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20250328/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
