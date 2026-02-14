@@ -116,6 +116,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20250930/";
+            },},{id: "news-icdm-2025-in-washington-dc-talks-encounters-and-inspiring-conversations",
+          title: 'ICDM 2025 in Washington DC: Talks, Encounters, and Inspiring Conversations',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20251115/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
