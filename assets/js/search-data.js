@@ -99,6 +99,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20250328/";
+            },},{id: "news-podcast-with-proxify-the-reality-of-working-in-ai-today",
+          title: 'Podcast with Proxify: The Reality of Working in AI Today',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20250514/";
+            },},{id: "news-keynote-at-proxify-morning-bytes-practical-learnings-from-productizing-llm-systems",
+          title: 'Keynote at Proxify Morning Bytes: Practical Learnings from Productizing LLM Systems',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20250930/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
