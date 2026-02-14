@@ -121,6 +121,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20251115/";
+            },},{id: "news-neurips-2025-in-san-diego-four-papers-from-king-ai-labs-microsoft-gaming",
+          title: 'NeurIPS 2025 in San Diego: Four Papers from King AI Labs (Microsoft Gaming)...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20251207/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
