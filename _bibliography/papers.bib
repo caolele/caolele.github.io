@@ -1,6 +1,92 @@
 ---
 ---
 
+@inproceedings{you2026cola,
+abbr={ICLR},
+  title={Joint Distribution-Informed Shapley Values for Sparse Counterfactual Explanations},
+  author={You, Lei and Bian, Yijun and Cao, Lele},
+  booktitle={The Fourteenth International Conference on Learning Representations (ICLR 2026)},
+  year={2026},
+  html={https://openreview.net/forum?id=3vIe5pNiUN},
+  pdf={https://openreview.net/pdf?id=3vIe5pNiUN},
+  arxiv={2410.05419},
+  code={https://pypi.org/project/xai-cola/},
+  video={https://iclr.cc/virtual/2026/poster/10011598},
+  abstract={We present COLA, a framework designed to streamline counterfactual explanations by reducing unnecessary feature modifications. The method combines optimal transport techniques with Shapley-based attribution to identify minimal edits while maintaining prediction changes. Our approach shows theoretical guarantees on divergence bounds and empirically achieves target outcomes using only 26-45% of the original feature modifications across multiple datasets and models.}
+}
+
+@inproceedings{ennadir2025tvns,
+abbr={LOG},
+  title={Virtual Nodes Go Temporal},
+  author={Ennadir, Sofiane and Jedra, Yassir and Smirnov, Oleg and Cao, Lele},
+  booktitle={The Fourth Learning on Graphs Conference (LOG 2025)},
+  year={2025},
+  html={https://openreview.net/forum?id=jdKtkiH9ze},
+  pdf={https://openreview.net/pdf?id=jdKtkiH9ze},
+  code={https://github.com/king/TVNs},
+  video={https://www.youtube.com/live/t2eVomW3134},
+  website={https://logconference.org/},
+  abstract={This paper presents a theoretical analysis of how virtual nodes enhance Continuous-Time Dynamic Graph models. We introduce the concept of information flow, which examines how information propagates through a graph following an event. We propose k-TVNs, a framework featuring fully connected virtual nodes representing distinct communities within graphs. Our work demonstrates that incorporating these virtual nodes substantially improves CTDG model performance, particularly regarding long-range information propagation and overcoming locality limitations inherent in existing approaches.}
+}
+
+@inproceedings{cao2025watermarking,
+abbr={ICLR Workshop},
+  title={Watermarking for AI Content Detection: A Review on Text, Visual, and Audio Modalities},
+  author={Cao, Lele},
+  booktitle={ICLR 2025 Workshop on GenAI Watermarking (WMARK)},
+  year={2025},
+  html={https://iclr.cc/virtual/2025/35698},
+  pdf={https://openreview.net/pdf?id=ot30XyrcnZ},
+  arxiv={2504.03765},
+  abstract={This paper surveys watermarking techniques for detecting AI-generated content across multiple modalities. It presents a structured taxonomy of methods for text, visual, and audio content, evaluating them based on effectiveness, robustness, and practicality. Key challenges addressed include adversarial attack resistance, standardization gaps, and ethical considerations around privacy and ownership. The work aims to advance watermarking strategies for ensuring content authenticity and trustworthiness.}
+}
+
+@inproceedings{an2025thread,
+abbr={EMNLP},
+  selected={true},
+  title={Thread: A Logic-Based Data Organization Paradigm for How-To Question Answering with Retrieval Augmented Generation},
+  author={An, Kaikai and Yang, Fangkai and Li, Liqun and Lu, Junting and Cheng, Sitao and Si, Shuzheng and Wang, Lu and Zhao, Pu and Cao, Lele and Lin, Qingwei and Rajmohan, Saravan and Zhang, Dongmei and Chang, Baobao},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={18289--18308},
+  year={2025},
+  month={November},
+  address={Suzhou, China},
+  publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2025.emnlp-main.923},
+  html={https://aclanthology.org/2025.emnlp-main.923/},
+  arxiv={2406.13372},
+  website={https://kkk-an.github.io/thread.github.io/},
+  abstract={This paper addresses limitations in retrieval-augmented generation systems for handling how-to questions. It proposes THREAD, a novel data organization approach using logic units rather than fixed-size chunks. Extensive experiments across both open-domain and industrial settings show that THREAD outperforms existing paradigms significantly, improving the success rate of handling how-to questions by 21% to 33%. The method also reduces retrieval information by up to 75% and generalizes better to multi-hop questions.}
+}
+
+@inproceedings{cao2025detectgenai,
+abbr={ICDM Workshop},
+  title={A Practical Synthesis of Detecting AI-Generated Textual, Visual, and Audio Content},
+  author={Cao, Lele},
+  booktitle={IEEE ICDM 2025 Workshop on Mining and Managing AI-Generated Content (MMAI)},
+  year={2025},
+  arxiv={2504.02898},
+  html={https://icdmw25mmai.github.io/accepted_papers/index.html},
+  abstract={This paper addresses detection methods for AI-generated content across multiple modalities. It examines critical concerns about misinformation, copyright infringement, security threats, and the erosion of public trust arising from advances in generative models. The research surveys detection techniques including observation-based strategies, linguistic analysis, model-based approaches, watermarking, and ensemble methods. The work emphasizes robustness, adaptation to evolving architectures, and human verification while presenting real-world applications in academic, journalistic, legal, and industrial domains.}
+}
+
+@inproceedings{cao2025cspaper,
+abbr={INLG},
+  selected={true},
+  title={CSPaper Review: Fast, Rubric-Faithful Conference Feedback},
+  author={Cao, Lele and You, Lei and CSPaper Review R\&D Team},
+  booktitle={Proceedings of the 18th International Natural Language Generation Conference: System Demonstrations},
+  pages={3--7},
+  year={2025},
+  month={October},
+  address={Hanoi, Vietnam},
+  publisher={Association for Computational Linguistics},
+  pdf={https://cspaper.org/op/20260212.0001v1},
+  html={https://aclanthology.org/2025.inlg-demos.2/},
+  website={https://cspaper.org/},
+  abstract={CSPaper Review is a free, AI-powered tool for rapid, conference-specific peer review in Computer Science. The system addresses existing limitations by utilizing Large Language Models (LLMs) agents and tailored workflows to deliver realistic and actionable reviews within one minute. Within its first four weeks, the tool attracted over 7,000 unique users from 80 countries and processed more than 15,000 reviews, demonstrating strong demand from the CS community. This paper presents the system's architecture, design decisions, performance benchmarks, user analytics, and future development plans.}
+}
+
 @inproceedings{wang2025frequency,
 abbr={NeurIPS Workshop},
   title={Frequency Matters: When Time Series Foundation Models Fail Under Spectral Shift},
@@ -470,7 +556,6 @@ doi={10.1007/978-3-319-70139-4_59}
 
 @inproceedings{cao2016efficient,
 abbr={AAAI},
-  selected={true},
   title={Efficient spatio-temporal tactile object recognition with randomized tiling convolutional networks in a hierarchical fusion strategy},
   author={Cao, Lele and Kotagiri, Ramamohanarao and Sun, Fuchun and Li, Hongbo and Huang, Wenbing and Aye, Zay Maung Maung},
   booktitle={Proceedings of the AAAI conference on artificial intelligence},
@@ -484,7 +569,6 @@ abbr={AAAI},
 
 @INPROCEEDINGS{8490442,
 abbr={CoG},
-  selected={true},
   author={Gudmundsson, Stefan Freyr and Eisen, Philipp and Poromaa, Erik and Nodet, Alex and Purmonen, Sami and Kozakowski, Bartlomiej and Meurling, Richard and Cao, Lele},
   booktitle={2018 IEEE Conference on Computational Intelligence and Games (CIG, n.k.a. CoG)},
   title={Human-Like Playtesting with Deep Learning}, 
