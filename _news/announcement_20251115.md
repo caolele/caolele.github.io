@@ -23,36 +23,36 @@ I presented our paper <a href="https://arxiv.org/abs/2504.02898" target="_blank"
 
 When even experienced reviewers struggle to tell the difference between AI-generated and human-written content, we need better tools. Our research addresses this challenge with practical, deployable solutions that work in real-world scenarios.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/news/20251115-2.jpeg" class="img-fluid rounded z-depth-1" alt="">
-    </div>
+<style>
+.equal-height-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.equal-height-row img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+</style>
+
+<div class="mt-3 equal-height-row">
+    <img src="/assets/img/news/20251115-2.jpeg" class="z-depth-1" alt="">
+    <img src="/assets/img/news/20251115-3.jpeg" class="z-depth-1" alt="">
 </div>
 
 ## Running into Prof. Jure Leskovec
 
 One of the highlights was meeting Prof. Jure Leskovec from Stanford! His pioneering work on graph neural networks and network analysis has shaped so much of modern AI research. We had a great chat about the evolving landscape of AI and where things are heading.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/news/20251115-3.jpeg" class="img-fluid rounded z-depth-1" alt="">
-    </div>
-</div>
-
 ## Great Conversations with Leading Minds
 
 The hallway conversations were just as valuable as the sessions. Had thought-provoking exchanges with Prof. Shashi Shekhar (University of Minnesota) and Prof. John Quackenbush (Harvard University) about the future of AI in scientific discovery and publishing.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/news/20251115-4.jpeg" class="img-fluid rounded z-depth-1" alt="">
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/news/20251115-5.JPG" class="img-fluid rounded z-depth-1" alt="">
-    </div>
+<div class="mt-3 equal-height-row">
+    <img src="/assets/img/news/20251115-4.jpeg" class="z-depth-1" alt="">
+    <img src="/assets/img/news/20251115-5.JPG" class="z-depth-1" alt="">
 </div>
 
 ---
