@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I had the honor of delivering the keynote at [Proxify's Morning Bytes](https://luma.com/ols7ssbn?tk=BzlRyL) event in Stockholm, sharing practical learnings from productizing LLM systems at CSPaper.org.
+I had the honor of delivering the keynote at [Proxify's Morning Bytes](https://luma.com/ols7ssbn?tk=BzlRyL) event in Stockholm, sharing practical learnings from productizing LLM systems at CSPaper.org. <a href="/assets/pdf/Proxify-Keynote-2025.pdf" target="_blank">[Slides PDF]</a>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
