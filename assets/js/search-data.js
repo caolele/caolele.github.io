@@ -126,6 +126,19 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20251207/";
+            },},{id: "news-panel-at-stockholm-school-of-economics-involving-ai-in-high-stakes-decisions",
+          title: 'Panel at Stockholm School of Economics: Involving AI in High-Stakes Decisions',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20260313/";
+            },},{id: "news-featured-in-hyperight-s-interview-on-unlocking-the-llm-moment-for-complex-data-streams",
+          title: 'Featured in Hyperight’s interview on unlocking the “LLM Moment” for complex data streams....',
+          description: "",
+          section: "News",},{id: "news-agenticdevdays-2026-in-stockholm-fireside-chat-on-the-agentic-sdlc",
+          title: 'AgenticDevDays 2026 in Stockholm: Fireside Chat on the Agentic SDLC',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20260428/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
