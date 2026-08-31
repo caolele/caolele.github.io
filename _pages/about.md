@@ -18,4 +18,4 @@ I’m a Senior Principal AI Researcher and Research Lead at `Microsoft Gaming (K
 
 With 16+ years of industry experience in `Private Equity`, `Gaming`, `Telecom`, `Geoinformatics`, and `E-commerce`, I have published in premier conferences such as ICML, NeurIPS, ICLR, CVPR, AAAI, EMNLP, IJCAI, AISTATS and KDD, and regularly serve as a PC member (reviewer) for these venues. I have supervised 15 Master’s theses and co-supervised 2 PhD students.
 
-My research focuses on representation learning on time series and graphs, multimodal language model evaluation, agentic systems, GenAI content detection, and self-improving agents for verification. On the side, I am quietly building [Norvyth](https://norvyth.com/) — a stealth-mode venture on *self-improving agents for trusted verification*. More to share in time.
+My research focuses on representation learning on time series and graphs, multimodal language model evaluation, agentic systems, GenAI content detection, AI for meta science and self-improving agents for science verification.
