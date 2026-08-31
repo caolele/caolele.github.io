@@ -139,6 +139,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260428/";
+            },},{id: "news-icml-2026-in-seoul-three-works-on-game-world-modeling-and-ai-assisted-peer-review",
+          title: 'ICML 2026 in Seoul: Three Works on Game World Modeling and AI-Assisted Peer...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20260710/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
