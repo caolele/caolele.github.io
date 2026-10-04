@@ -144,6 +144,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260710/";
+            },},{id: "news-the-improvement-loop-talks-on-self-improving-agents-at-proxify-kunumi-institute-and-danads",
+          title: 'The Improvement Loop: Talks on Self-Improving Agents at Proxify, Kunumi Institute, and DanAds...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20261002/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
