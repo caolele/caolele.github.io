@@ -1,0 +1,149 @@
+/******************************************************************************
+ * Site polish: navbar, news list, and phone/tablet refinements.
+ * Loaded after the theme so these rules take precedence.
+ ******************************************************************************/
+
+// Navbar: fully opaque. The theme's `opacity: 0.95` let page content show
+// through the bar on scroll.
+.navbar {
+  opacity: 1;
+  background-color: var(--global-bg-color);
+}
+
+// Section headings on the homepage (News, Recent Selected Publications).
+.post article > h2 {
+  margin-top: 2.75rem;
+}
+
+// News list
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  column-gap: 1.25rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.news-date {
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--global-text-color-light);
+  padding-top: 0.1rem;
+}
+
+.news-body {
+  min-width: 0;
+  line-height: 1.5;
+}
+
+.news-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+// Desktop: keep the homepage list compact with a gentle inner scroll.
+@media (min-width: 992px) {
+  .news-list--compact {
+    max-height: 24rem;
+    overflow-y: auto;
+    padding-right: 0.75rem;
+    scrollbar-width: thin;
+    overscroll-behavior: contain;
+  }
+}
+
+// Phones and tablets: no nested scrolling, just the latest few items.
+@media (max-width: 991.98px) {
+  .news-list--compact .news-item:nth-child(n + 6) {
+    display: none;
+  }
+
+  // A fixed footer permanently covers part of a small screen.
+  footer.fixed-bottom {
+    position: static;
+  }
+
+  body {
+    padding-bottom: 0;
+  }
+}
+
+// Phones
+@media (max-width: 767.98px) {
+  .news-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.2rem;
+    padding: 0.85rem 0;
+  }
+
+  .news-date {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding-top: 0;
+  }
+
+  .post-title {
+    font-size: clamp(1.75rem, 7.5vw, 2.5rem);
+    line-height: 1.2;
+  }
+
+  .post article > h2,
+  article.post-content > h2 {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
+
+  // Venue badges: compact pills instead of full-width bars.
+  .publications ol.bibliography li {
+    margin-bottom: 1.75rem;
+
+    .abbr {
+      margin-bottom: 0.15rem;
+
+      abbr.badge {
+        width: auto !important;
+        padding: 0.4em 0.85em;
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+        border-radius: 999px !important;
+      }
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+
+      a.btn {
+        margin: 0;
+        padding: 0.2rem 0.75rem;
+        font-size: 0.72rem;
+      }
+    }
+  }
+}
+
+// Publications: let the text column fill the row beside the venue badge
+// (the theme leaves two of twelve grid columns empty).
+@media (min-width: 576px) {
+  .publications ol.bibliography li .row > .col-sm-8 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}

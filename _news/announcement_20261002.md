@@ -48,6 +48,18 @@ related_posts: false
 article h2 {
     margin-top: 2.2rem;
 }
+@media (max-width: 767.98px) {
+    .rsi-venues {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .rsi-stat {
+        font-size: 1.5rem;
+    }
+    article .row > [class*="col-md"] + [class*="col-md"] {
+        margin-top: 0.75rem;
+    }
+}
 .rsi-pull {
     border-left: 4px solid #3aa28f;
     padding: 0.2rem 0 0.2rem 1rem;
@@ -115,7 +127,7 @@ The key question is **who makes the next version**. Engineers shipping releases 
         <img src="/assets/img/news/20261002-4-1600.webp" srcset="/assets/img/news/20261002-4-800.webp 800w, /assets/img/news/20261002-4-1600.webp 1600w" sizes="(min-width: 768px) 400px, 100vw" width="1600" height="1067" loading="lazy" decoding="async" class="img-fluid rounded z-depth-1" alt="Audience photographing the seven levels of self-improvement slide">
     </div>
 </div>
-<div class="caption">Left: autoresearch as a concrete edit, train, measure, keep-or-revert loop. Right: phones up for the "seven levels" slide.</div>
+<div class="caption">Autoresearch as a concrete edit, train, measure, keep-or-revert loop, and phones up for the "seven levels" slide.</div>
 
 <div class="row mt-4 align-items-center">
     <div class="col-md-5 mb-3 mb-md-0">
