@@ -141,6 +141,20 @@
   ],
   "awards": [
     {
+      "title": "Top Reviewer",
+      "date": "2026-10-11",
+      "awarder": "Conference on Neural Information Processing Systems (NeurIPS 2026)",
+      "url": "https://neurips.cc/Conferences/2026",
+      "summary": ""
+    },
+    {
+      "title": "Outstanding Reviewer",
+      "date": "2026-06-07",
+      "awarder": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)",
+      "url": "https://cvpr.thecvf.com/Conferences/2026",
+      "summary": ""
+    },
+    {
       "title": "Best Reviewer",
       "date": "2024-08-29",
       "awarder": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024)",
